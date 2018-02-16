@@ -1,0 +1,374 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/*               End of Setup             */
+
+body {
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  line-height: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 100%;
+}
+
+.menu {
+  background-color: black;
+  height: 45px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.image2 {
+  margin-left: 970px;
+  position: relative;
+  bottom: 340px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image1 {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 390px;
+}
+
+h2 {
+  font-size: 35px;
+  position: relative;
+  bottom: 330px;
+  text-align: center;
+  margin-left: 338px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  position: relative;
+  margin-left: 966px;
+  bottom: 300px;
+  font-size: 26px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: dodgerblue;
+}
+
+.p1 {
+  position: relative;
+  margin-left: 1140px;
+  bottom: 325px;
+  font-size: 26px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: dodgerblue;
+  
+}
+
+.bloc2{
+  width: 100%;
+  display: flex;
+  
+}
+
+.photo1{
+  background-image: url(images/photo1.jpg);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 300px;
+  background-position: center;
+  flex-direction: row
+}
+
+.photo2{
+  background-image: url(./images/photo2.jpg);
+  width: 600px;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  flex-direction: row
+}
+.photo3{
+  background-image: url(./images/photo3.jpg);
+  width: 600px;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  flex-direction: row
+}
+.photo4{
+  background-image: url(./images/photo4.jpg);
+  width: 600px;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  flex-direction: row
+  
+}
+footer{
+  height: 300px;
+  background-color: #cccccc;
+  }
+
+.bloc3 {
+  background-color: gainsboro;
+  position: relative;
+  padding-left: 200px;
+}
+
+.colonne2 {
+  flex-direction: column;
+  position: relative;
+  top: 38px;
+}
+
+.colonne3 {
+  position: relative;
+  flex-direction: column;
+  left: 175px;
+  bottom: 138px;
+}
+
+.Education {
+  flex-direction: column;
+  position: relative;
+  margin-left: 32%;
+  bottom: 316px;
+}
+
+.Busi {
+  flex-direction: column;
+  position: relative;
+  margin-left: 32%;
+  bottom: 300px;
+}
+
+.Acc {
+  flex-direction: column;
+  position: relative;
+  margin-left: 50%;
+  bottom: 443px;
+}
+
+.Value {
+  flex-direction: column;
+  position: relative;
+  margin-left: 50%;
+  bottom: 420px;
+}
+
+.AA {
+  flex-direction: column;
+  position: relative;
+  margin-left: 70%;
+  bottom: 617px;
+}
+
+h1{
+  font-size: 30px;
+    text-align: center;
+    margin-bottom: 31px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: dodgerblue;
+}
+
+.text1{
+  position: relative;
+  bottom: 450px;
+
+}
+
+
+
+.CC{
+  position: relative;
+  bottom: 440px;
+  border-top-width: 2px;
+  border-top-color: #cccccc;
+  border-top-style: solid;
+}
+
+.fin{
+    display: flex;
+    border-left: solid;
+    border-color: #cccccc;
+    padding: 0px 20px;
+    bottom: 453px;
+    position: relative;
+    margin-left: 305px;
+    text-indent: 70px;
+}
+
+.bloc4 li{
+  display: flex;
+  border-left: solid;
+  border-left-color: #cccccc;
+  margin-left: 56px;
+}
+
